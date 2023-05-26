@@ -65,12 +65,12 @@ body {
     /* FORMATANDO O CABEÇALHO DA TABELA */
     #HeadTab, .HeadTab2{
         text-align: left;
-        padding: 0px 30px 0px 0px;
+        padding: 0px 30px 3em 0px;
     }
     /* CENTRALIZANDO OS CABEÇALHOS DE VALORES */
     .HeadTab2{
         text-align: center;
-        padding: 0;
+        padding: 0 0 3em 0;
     }
     /* FORMATANDO ESPAÇAMENTO ENTRE LINHAS */
     td{
@@ -122,3 +122,26 @@ body {
     #DivCenter{
         text-align: center;
     }
+
+
+/* FORMATANDO AS LINHAS DA TABELA DA SEGUNDA PÁGINA 'OPÇÕES DE RESGATE' */
+.OptR{
+    padding-bottom: 3em;
+}
+
+/* FORMATANDO O BOTÃO ADMIN */
+#btn_ResgateAdmin{
+    padding: 10px;
+    border-radius: 9px;
+    border: 0px;
+    background-color: rgba(207, 197, 197, 0.7);
+    box-shadow: 0px 4px 4px #87A330;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 10%;
+    color: rgba(41, 97, 23, 1);
+}
+
+#Resgate1{
+    width: 98%;
+}
